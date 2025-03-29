@@ -16,3 +16,29 @@ function majorityElement(nums: number[]): number {
 
   return res;
 };
+
+function optimalMajorityElement(nums: number[]): number {
+  let N : number = nums.length;
+  let freq : number = Math.floor(N/2);
+  let res : number = 0;
+
+  nums.sort();
+
+  let i : number = 0;
+  while(i < N-1) {
+      let currFreq : number = 1; 
+      let j : number = i+1;
+      while(j < N && nums[j] == nums[i]) {
+          currFreq += 1;
+          j ++;
+      }
+      if(currFreq > freq) res = nums[i];
+      i = j;
+  }
+
+  return res;
+};
+
+let nums : number[] = [2,2,1,1,1,2,2];
+console.log(optimalMajorityElement(nums));
+
