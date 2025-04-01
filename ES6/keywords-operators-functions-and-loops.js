@@ -59,3 +59,16 @@ st.add(1);
 for(let i of st) {
   console.log(i);
 }
+
+
+//Rest Operator: allows a function to treat the indefinite values arguments as an array.
+function sum(...args) {
+  let s = 0;
+  for(let i of args) {
+    s += i;
+  }
+
+  return s;
+}
+var restRes = sum(1,2,3,15,15,1,6,1);
+console.log(restRes);
