@@ -37,3 +37,9 @@ const numbers = [4, 9, 16, 25, 29];
 console.log(numbers.find((ele) => {
   return ele > 18;
 })) 
+
+//findIndex(): this method returns the index of the first element which passes the specified condition in callback function.
+
+console.log(numbers.findIndex((ele) => {
+  return ele > 18;
+}));
