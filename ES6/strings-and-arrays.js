@@ -31,3 +31,9 @@ let x = fruit.keys();
 for(let i of x) {
   console.log(i);
 }
+
+//find(): return the first value of the first array element which passes the specified condition.
+const numbers = [4, 9, 16, 25, 29];
+console.log(numbers.find((ele) => {
+  return ele > 18;
+})) 
