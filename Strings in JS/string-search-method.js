@@ -12,4 +12,4 @@ console.log(text.lastIndexOf("locate"));
 
 //search(): takes the argument as string and return the index of the first occurance of it in the string. It is different from the indexOf() method because it doesn't take starting index of searching.
 
-console.log(search("where"));
+console.log(text.search("where"));
