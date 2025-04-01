@@ -73,6 +73,9 @@ console.log(sArr.some((ele) => {
 
 
 //indexOf() : this returns the first index of the element which matches the arguments.
-var fruits = ["Apple", "Orange", "Apple", "Mango"];
-var a = fruits.indexOf("Orange");
+var fruits = ["Apple", "Orange", "Mango", "Mango"];
+var a = fruits.indexOf("Mango");
 console.log(a);
+
+//lastIndexOf() : same as the indexOf() but searches from the end of the array.
+console.log(fruits.lastIndexOf("Mango"));
