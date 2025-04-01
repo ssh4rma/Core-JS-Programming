@@ -71,3 +71,8 @@ console.log(sArr.some((ele) => {
   return ele > 18;
 }))
 
+
+//indexOf() : this returns the first index of the element which matches the arguments.
+var fruits = ["Apple", "Orange", "Apple", "Mango"];
+var a = fruits.indexOf("Orange");
+console.log(a);
