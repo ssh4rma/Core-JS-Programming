@@ -28,8 +28,18 @@ console.log(person.fullName);
 
 console.log(Object.defineProperty(person, "email", {
   value : "shubham.sharma4390@gmail.com",
-  writable: false,
+  writable: true,
   enumerable: true
 })); 
 
 console.log(person);
+
+//object.create(): Methods creates an object from an existing object (empty)
+
+let newPerson = Object.create(person);
+console.log(newPerson);
+
+newPerson.firstName = "Nice";
+newPerson.lastName = "Aqua";
+newPerson.email = "nice.aqua@gmail.com"
+console.log(newPerson);
