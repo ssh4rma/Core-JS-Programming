@@ -49,3 +49,8 @@ console.log(str2.padEnd(10, "x"));
 //repeat(): this method returns the string with the number of copies in the string.
 
 console.log(str2.repeat(5));
+
+
+//replace() : this method replaces the specified value in the string with the new one given in args.
+
+console.log(str2.replace("shubham", "sharma"));
