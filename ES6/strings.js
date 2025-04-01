@@ -10,3 +10,13 @@ console.log(str.startsWith("Hello"));
 //endsWith(): returns boolean value if the string ends with the specified string
 
 console.log(str.endsWith("."));
+
+//entries(): creates a array iterator object with key/value pair. 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let f = fruits.entries();
+
+console.log(f);
+
+for(let i of f) {
+  console.log(i);
+}
