@@ -17,3 +17,10 @@ console.log(z);
 
 var res = (x, y) => x * y;
 console.log(res(5, 2));
+
+//Object Destructring: allows you to extract properties from objects and assign them to variables using a concise syntax, making it easier to access and work with object data
+
+const arr = [1, 3, 5];
+const[a, b, c] = arr;
+
+console.log(a, b, c); 
