@@ -15,3 +15,7 @@ world"
 
 var str = "       Hello World!        ";
 console.log(str.trim());
+
+//.isArray(): checks whether the object is an array.
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var x = document.getElementById("demo");
