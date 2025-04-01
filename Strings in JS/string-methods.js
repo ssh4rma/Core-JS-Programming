@@ -45,3 +45,7 @@ console.log(text1.trimEnd());
 
 console.log(str2.padStart(10, "x"));
 console.log(str2.padEnd(10, "x"));
+
+//repeat(): this method returns the string with the number of copies in the string.
+
+console.log(str2.repeat(5));
