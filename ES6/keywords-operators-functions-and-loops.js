@@ -35,3 +35,13 @@ console.log(mx);
 for(let i of numbers) {
   console.log(i); 
 }
+
+//Maps object in JS
+const mpp = new Map();
+mpp.set(["apples", 5]);
+mpp.set(["oranges", 4]);
+mpp.set(["Mango", 10]);
+
+for(let i of mpp) {
+  console.log(i);
+}
