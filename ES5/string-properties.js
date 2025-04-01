@@ -26,3 +26,9 @@ feArr.forEach((ele, index) => {
   feArr[index] = ele * 3;
 })
 console.log(feArr);
+
+//map() array method: this mehtod applies operation to each element in the array, and returns the array.
+var numbers1 = [45, 4, 9, 16, 25];
+console.log(numbers1.map((ele) => {
+  return ele * 2;
+}));
