@@ -45,3 +45,11 @@ var redArr = [45, 4, 9, 16, 25];
 console.log(redArr.reduce((tSum, ele) => {
   return tSum += ele;
 }))
+
+//The reduceRight() method of Array instances applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value.
+//arguments are same as reduce().
+
+var rrArr = [45, 4, 9, 16, 25];
+console.log(rrArr.reduceRight((tSum, ele) => {
+  return tSum -= ele;
+}));
