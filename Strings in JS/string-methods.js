@@ -23,3 +23,10 @@ console.log(str.slice(5, 7));
 console.log(str.toUpperCase());
 console.log(str.toLowerCase());
 
+//concat() method is used to join two strings.
+
+let str2 = "shubham";
+
+let resStr = str.concat("", str2);
+console.log(resStr);
+
