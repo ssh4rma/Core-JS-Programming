@@ -40,3 +40,8 @@ console.log(text1.trim());
 
 console.log(text1.trimStart());
 console.log(text1.trimEnd());
+
+//padStart() : padd the string with the char in the args till the specified length is achieved from the start. and padEnd() does the same from the end.
+
+console.log(str2.padStart(10, "x"));
+console.log(str2.padEnd(10, "x"));
