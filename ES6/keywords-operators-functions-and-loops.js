@@ -45,3 +45,17 @@ mpp.set(["Mango", 10]);
 for(let i of mpp) {
   console.log(i);
 }
+
+
+//Set Object in JS
+const st = new Set();
+st.add(5);
+st.add(5);
+st.add(2);
+st.add(2);
+st.add(1);
+st.add(1);
+
+for(let i of st) {
+  console.log(i);
+}
