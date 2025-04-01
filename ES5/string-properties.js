@@ -39,3 +39,9 @@ console.log(filterNums.filter((ele) => {
   return ele > 18;
 }))
 
+//reduce(): takes 2 args (callback fun [takes 3 args {accumulator, currVal, currIdx, array}], initialValue [optional])
+
+var redArr = [45, 4, 9, 16, 25];
+console.log(redArr.reduce((tSum, ele) => {
+  return tSum += ele;
+}))
