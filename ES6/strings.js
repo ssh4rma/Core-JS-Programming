@@ -23,3 +23,11 @@ for(let i of f) {
 
 //from(): returns the array object from any object.
 console.log(Array.from("ABCDEFG"));
+
+//keys(): creates a array iteratable containing the keys of array
+let fruit = ["Banana", "Orange", "Apple", "Mango"];
+let x = fruit.keys();
+
+for(let i of x) {
+  console.log(i);
+}
