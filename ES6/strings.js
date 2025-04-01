@@ -20,3 +20,6 @@ console.log(f);
 for(let i of f) {
   console.log(i);
 }
+
+//from(): returns the array object from any object.
+console.log(Array.from("ABCDEFG"));
