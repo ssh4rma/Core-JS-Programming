@@ -32,3 +32,10 @@ var numbers1 = [45, 4, 9, 16, 25];
 console.log(numbers1.map((ele) => {
   return ele * 2;
 }));
+
+//filter(): creates a new array which mets the condition
+var filterNums = [45, 4, 9, 16, 25];
+console.log(filterNums.filter((ele) => {
+  return ele > 18;
+}))
+
