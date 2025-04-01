@@ -35,3 +35,8 @@ console.log(resStr);
 let text1 = "      Hello World!      ";
 console.log(text1.trim());
 
+
+//trimStart() : removes the whitespace from the start only. and trimEnd() : removes the whitespaces from end.
+
+console.log(text1.trimStart());
+console.log(text1.trimEnd());
