@@ -6,3 +6,7 @@ console.log(str.includes("world"));
 //startsWith(): returns boolean value if the string starts with the specified value.
 
 console.log(str.startsWith("Hello"));
+
+//endsWith(): returns boolean value if the string ends with the specified string
+
+console.log(str.endsWith("."));
