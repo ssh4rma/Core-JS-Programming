@@ -30,3 +30,8 @@ let str2 = "shubham";
 let resStr = str.concat("", str2);
 console.log(resStr);
 
+//trim() : removes whitespaces from both sides of the string.
+
+let text1 = "      Hello World!      ";
+console.log(text1.trim());
+
