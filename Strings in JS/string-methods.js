@@ -18,3 +18,8 @@ console.log(str.at(7));
 console.log(str.substring(4, 7));
 console.log(str.slice(5, 7));
 
+//toUpperCase() and toLowerCase() are used to change the characters of the string from lower to upper and upper to lower respectively.
+
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
