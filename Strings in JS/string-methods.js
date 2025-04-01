@@ -54,3 +54,11 @@ console.log(str2.repeat(5));
 //replace() : this method replaces the specified value in the string with the new one given in args.
 
 console.log(str2.replace("shubham", "sharma"));
+
+
+//split() : this methods converts the string into the array, which help us to apply the array methods like sort, reverse etc. on string as they can't directly apply on strings as they are immutable.
+
+let s1 = "apple banana orange";
+s1.split("");
+
+console.log(s1);
