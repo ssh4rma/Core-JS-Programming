@@ -23,3 +23,13 @@ var person = {
 console.log(person.fullName);
 person.changeName = "aniket";
 console.log(person.fullName);
+
+//Object.defineProperty(): It lets you define an object property and/or change a property's value and/or metadata.
+
+console.log(Object.defineProperty(person, "email", {
+  value : "shubham.sharma4390@gmail.com",
+  writable: false,
+  enumerable: true
+})); 
+
+console.log(person);
