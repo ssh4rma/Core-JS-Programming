@@ -30,3 +30,8 @@ console.log(a, b, c);
 const numbers = [23,55,21,87,56];
 let mx = Math.max(...numbers);
 console.log(mx);
+
+//For-of Loop: used to iterate over array, string, maps
+for(let i of numbers) {
+  console.log(i); 
+}
