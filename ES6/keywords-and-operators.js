@@ -12,3 +12,8 @@ var z = 10;
   const z = 10;
 }
 console.log(z);
+
+//Arrow Function: short syntax for writing function: Here we don't need function keyword, return keyword and { } braces.
+
+var res = (x, y) => x * y;
+console.log(res(5, 2));
