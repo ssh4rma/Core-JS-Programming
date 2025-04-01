@@ -46,3 +46,12 @@ console.log(newPerson);
 
 //Object.keys() : returns the array with keys of the object 
 console.log(Object.keys(person));
+
+//bind() : With the bind() method, an object can borrow a method from another object.
+
+let employee = {
+  org : "GE Vernova"
+};
+
+let orgName = employee.org.bind(newPerson);
+console.log(orgName);
