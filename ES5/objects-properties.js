@@ -43,3 +43,6 @@ newPerson.firstName = "Nice";
 newPerson.lastName = "Aqua";
 newPerson.email = "nice.aqua@gmail.com"
 console.log(newPerson);
+
+//Object.keys() : returns the array with keys of the object 
+console.log(Object.keys(person));
