@@ -24,3 +24,9 @@ const arr = [1, 3, 5];
 const[a, b, c] = arr;
 
 console.log(a, b, c); 
+
+//Spread Operator: (...) used to expand an iterable into more arguments for function calls
+
+const numbers = [23,55,21,87,56];
+let mx = Math.max(...numbers);
+console.log(mx);
