@@ -53,3 +53,12 @@ var rrArr = [45, 4, 9, 16, 25];
 console.log(rrArr.reduceRight((tSum, ele) => {
   return tSum -= ele;
 }));
+
+
+//every(): The every() method of Array instances tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+//arguments : (callback {ele, index, array}, this arg{optional})
+
+var eArr = [45, 4, 9, 16, 25];
+console.log(eArr.every((ele) => {
+  return ele > 1;
+}));
