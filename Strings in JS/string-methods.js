@@ -11,3 +11,10 @@ console.log(str.charCodeAt(6));
 //the differnce between at() and charAt() is that at() allows negative index
 
 console.log(str.at(7));
+
+//for extracting the part of the string there are 3 methods
+//substring(start, end) and slice(start, end)
+
+console.log(str.substring(4, 7));
+console.log(str.slice(5, 7));
+
