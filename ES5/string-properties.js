@@ -18,4 +18,11 @@ console.log(str.trim());
 
 //.isArray(): checks whether the object is an array.
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
-var x = document.getElementById("demo");
+// console.log(fruits.isArray());
+
+//forEach(): method calls function for every element in the array
+var feArr = [1,2,4,5,2,4]; 
+feArr.forEach((ele, index) => {
+  feArr[index] = ele * 3;
+})
+console.log(feArr);
