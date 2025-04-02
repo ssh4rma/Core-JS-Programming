@@ -13,3 +13,7 @@ console.log(Math.log10(10));
 //EPSILON
 let x = Number.EPSILON;
 console.log(x); 
+
+//Number.MIN_SAFE_INTEGER : It assigns the variable with the smallest possible number.
+let y = Number.MIN_SAFE_INTEGER;
+console.log(y); 
