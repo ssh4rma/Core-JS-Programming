@@ -21,3 +21,7 @@ console.log(y);
 //Number.MAX_SAFE_NUMBER: It assigns the variable with the largest possible number.
 let z = Number.MAX_SAFE_INTEGER;
 console.log(z);
+
+//Number.isInteger(): checks whether the number is Integer or not
+console.log(Number.isInteger(5.5));
+console.log(Number.isInteger(5));
