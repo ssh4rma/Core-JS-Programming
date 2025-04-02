@@ -25,3 +25,7 @@ console.log(z);
 //Number.isInteger(): checks whether the number is Integer or not
 console.log(Number.isInteger(5.5));
 console.log(Number.isInteger(5));
+
+//Number.isSafeInteger(): returns true if the number is is safe integer (means a number can be exactly represented as  double precision number).
+console.log(Number.isSafeInteger(12345678901234567890));
+console.log(Number.isSafeInteger(1234567890));
