@@ -10,3 +10,8 @@ for(let i = 0; i < arr.length; ++i) {
   }
 }
 console.log(res);
+
+
+console.log(arr.filter((e) => {
+  return e.active;
+}));
