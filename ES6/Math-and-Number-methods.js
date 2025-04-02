@@ -29,3 +29,7 @@ console.log(Number.isInteger(5));
 //Number.isSafeInteger(): returns true if the number is is safe integer (means a number can be exactly represented as  double precision number).
 console.log(Number.isSafeInteger(12345678901234567890));
 console.log(Number.isSafeInteger(1234567890));
+
+//isFinite(): returns false if the number is Infinity or NaN
+console.log(isFinite(-Infinity));
+console.log(isFinite(NaN));
