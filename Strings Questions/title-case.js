@@ -1,6 +1,6 @@
 //capitalize the first character of each and every char.
 
-let str = "hello world this is shubham";
+let txt = "hello world this is shubham";
 
 let res = "";
 let i = 0;
