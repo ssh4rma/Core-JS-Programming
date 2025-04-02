@@ -17,3 +17,7 @@ console.log(x);
 //Number.MIN_SAFE_INTEGER : It assigns the variable with the smallest possible number.
 let y = Number.MIN_SAFE_INTEGER;
 console.log(y); 
+
+//Number.MAX_SAFE_NUMBER: It assigns the variable with the largest possible number.
+let z = Number.MAX_SAFE_INTEGER;
+console.log(z);
