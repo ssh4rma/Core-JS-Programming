@@ -15,3 +15,9 @@ async function asynCall() {
 }
 
 asynCall();
+
+
+//Trailing commas: and the (,) values are 2 empty items
+const myArr = [1,2,3,4,5,,,];
+console.log(myArr);
+//output: [ 1, 2, 3, 4, 5, <2 empty items> ]
