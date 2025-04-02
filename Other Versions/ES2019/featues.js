@@ -7,3 +7,8 @@ const fruits = [
   
 const myObj = Object.fromEntries(fruits);
 console.log(myObj);
+
+//flatMap(): maps all elements of an array and then creates a new array by flattening the array.
+
+const myArr = [1, 2, 3, 4, 5, 6];
+console.log(myArr.flatMap(x => [x, x * 10]));
