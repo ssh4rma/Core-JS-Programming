@@ -33,3 +33,7 @@ console.log(Number.isSafeInteger(1234567890));
 //isFinite(): returns false if the number is Infinity or NaN
 console.log(isFinite(-Infinity));
 console.log(isFinite(NaN));
+
+//isNaN(): returns true if the argument is NaN and false otehrwise. 
+console.log(isNaN(5));
+console.log(isNaN(NaN));
