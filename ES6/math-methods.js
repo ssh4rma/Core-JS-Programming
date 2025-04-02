@@ -9,3 +9,7 @@ console.log(Math.log2(4));
 //Math.log10(): returns the base 10 log of x
 console.log(Math.log10(100));
 console.log(Math.log10(10));
+
+//EPSILON
+let x = Number.EPSILON;
+console.log(x); 
