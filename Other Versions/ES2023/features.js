@@ -10,3 +10,7 @@ console.log(temp.findLast((x) => {
 console.log(temp.lastIndexOf((x) => {
   return x >= 30;
 }));
+
+//toReversed(): this is different from the old reverse() function as it returns a new reveresed array it don't temper the original array.
+
+console.log(temp.toReversed());
