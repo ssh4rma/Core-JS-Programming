@@ -18,3 +18,8 @@ console.log(temp.toReversed());
 //toSorted():It's operation is same as Array.sort() method but it retuns a new array
 
 console.log(temp.toSorted());
+
+
+//toSpliced(): It's operation is same as Array.splice() method, but it also returns a new array.
+
+console.log(temp.toSpliced(0, 4));
