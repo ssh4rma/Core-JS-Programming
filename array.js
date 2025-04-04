@@ -82,3 +82,8 @@ console.log(Marr.flatMap((ele) => {
 }));
 
 console.log(Marr);//didn't temper the original array
+
+//splice(): This method is used for removing and adds new element into the array.
+
+console.log(Marr.splice(2, 2, 111, 112));
+console.log(Marr); //removed 2 elements from array from index position 2 and added 2 elements in place of it.
