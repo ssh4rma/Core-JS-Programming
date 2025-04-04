@@ -87,3 +87,38 @@ console.log(Marr);//didn't temper the original array
 
 console.log(Marr.splice(2, 2, 111, 112));
 console.log(Marr); //removed 2 elements from array from index position 2 and added 2 elements in place of it.
+
+
+//Iteration / traversal array methods.
+
+const ItArr = [1,1,3,5,1,55,51];
+
+//entries(): returns object of array iterators and array is stored as key value pair of indexes and values.
+
+const ob1 = ItArr.entries();
+
+for(let i of ob1) {
+  console.log(i);
+}
+
+//forEach(): 
+
+let sum = 0;
+ItArr.forEach((ele) => {
+  sum += ele; 
+})
+
+console.log(sum);
+
+//keys(): returns a new object of iterator array contains keys for each index in the array.
+
+const ob2 = ItArr.keys();
+
+for(let i of ob2) {
+  console.log(i); 
+}//prints the index as object contains that.
+
+//values(): returns a new object of iterator array with values at each index.
+
+const ob3 = ItArr.values();
+for(let i of ob3) console.log(i);
