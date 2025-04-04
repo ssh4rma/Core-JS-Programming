@@ -25,3 +25,8 @@ var evArr = [3,51,5,51,55];
 console.log(evArr.every((ele, idx) => {
   return ele < 10;
 }));
+
+//fill(): fill the array with the specified value from the specified start to end index, and returns an array
+
+var farr = [1,4,5,5,6];
+console.log(farr.fill(1, 0, 3));
