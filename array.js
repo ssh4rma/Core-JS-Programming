@@ -37,3 +37,36 @@ var filArr = [1, 4, 1, 4, 1, 4];
 console.log(filArr.filter((ele, idx) => {
   return ele === 1;
 }));
+
+//Find methods:
+
+const fArr = [3,51,5,51,55];
+
+//indexOf(): returns the index of the first element with the specified value.
+
+console.log(fArr.indexOf(51));
+
+//lastIndexOf(): returns the last index of the element which satify the specified value.
+
+console.log(fArr.lastIndexOf(51));
+
+//find(): returns the value of the first element which met the condition
+
+console.log(fArr.find((ele) => {
+  return ele === 51;
+}));
+
+//findLast(): returns the value of the last element which met the condition.
+console.log(fArr.findLast((ele) => {
+  return ele === 55;
+}));
+
+//findIndex(): return the index of the first occurence of the target value.
+
+var fIArr = [1,3,6,61,61];
+console.log(fIArr.findIndex((ele) => {
+  return ele === 61; 
+}));
+
+//findLastIndex(): returns the index of the last occur
+console.log(fIArr.lastIndexOf(61));
