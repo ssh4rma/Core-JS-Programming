@@ -30,3 +30,10 @@ console.log(evArr.every((ele, idx) => {
 
 var farr = [1,4,5,5,6];
 console.log(farr.fill(1, 0, 3));
+
+//filter(): filter out the element which satsifies the condition in the callback function.`
+
+var filArr = [1, 4, 1, 4, 1, 4];
+console.log(filArr.filter((ele, idx) => {
+  return ele === 1;
+}));
