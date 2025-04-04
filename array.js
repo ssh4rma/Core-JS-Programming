@@ -70,3 +70,15 @@ console.log(fIArr.findIndex((ele) => {
 
 //findLastIndex(): returns the index of the last occur
 console.log(fIArr.lastIndexOf(61));
+
+//Array creation and modification:
+
+const Marr = [1,4,5,2,7,9,0];
+
+//flatMap(): return a new array. It applies callback function to all the elemenent of the array and return one level flat array.
+
+console.log(Marr.flatMap((ele) => {
+  return ele === 2 ? [2,[2]] : ele;
+}));
+
+console.log(Marr);//didn't temper the original array
