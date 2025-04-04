@@ -18,3 +18,10 @@ var ob = enArr.entries();
 for(let i of ob) {
   console.log(i);
 }
+
+//every(): return true or false, if the condition is met by the each and every element in the array. 
+
+var evArr = [3,51,5,51,55];
+console.log(evArr.every((ele, idx) => {
+  return ele < 10;
+}));
