@@ -19,3 +19,12 @@ console.log(index);
 const fruitss = ["Banana", "Orange", "Apple", "Mango"];
 const myArray = fruitss.valueOf();
 console.log(myArray);
+
+const str = "tempadfdsfasdfa"; 
+console.log(str.valueOf());
+
+//declaration and hoisting
+x = 5; 
+console.log(x);
+var x;
+console.log(x);
