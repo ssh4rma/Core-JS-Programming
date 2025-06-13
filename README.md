@@ -24,8 +24,6 @@ This module covers essential **JavaScript programming fundamentals** along with 
 - Branch creation and management
 - Merging strategies and handling merge conflicts
 - Making commits with meaningful messages
-- Feature and version management best practices
-- Pull Request (PR) workflow for collaborative development
 - Using **Git Bash** as a command-line client tool
 
 ---
